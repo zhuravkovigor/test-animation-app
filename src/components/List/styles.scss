@@ -1,0 +1,12 @@
+.list {
+  gap: 20px;
+  width: 100%;
+  overflow-x: auto;
+  white-space: nowrap;
+
+  &__element {
+    width: 20vw;
+    height: 20vw;
+    display: inline-flex;
+  }
+}
